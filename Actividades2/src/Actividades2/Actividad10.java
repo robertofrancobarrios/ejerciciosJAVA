@@ -34,7 +34,7 @@ public class Actividad10 {
 		// Si el número tiene 4 cifras (um, c, d, u)
 		
 		 if (original < 10) { // 1 cifra
-             System.out.println("El número es capicúa.");
+             System.out.println("El número no es capicúa (1 cifra)");
          } else if (original < 100) { // 2 cifras
              if (d == u) {
                  System.out.println("El número es capicúa.");
