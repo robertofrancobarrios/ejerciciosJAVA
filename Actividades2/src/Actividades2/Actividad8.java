@@ -1,3 +1,4 @@
+package Actividades2;
 import java.util.Scanner;
 public class Actividad8 {
 
