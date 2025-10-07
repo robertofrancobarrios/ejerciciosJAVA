@@ -41,6 +41,7 @@ public class Actividad1 {
 				System.out.println("------------------------------------");
 				
 			}
+			
 		} while (numero != 0);
 		
 		System.out.println("Fin del programa. ");
