@@ -1,6 +1,6 @@
 package com;
 
-public class Actividad7sinterminar {
+public class Actividad7 {
 	
 	// Diseñar una función que determine si un número es primo.
 	
@@ -9,7 +9,6 @@ public class Actividad7sinterminar {
 		if (numero < 2) {
 			return false;
 		}
-		return false;
 		
 		// Solo necesitamos verificar hasta la raíz cuadrada del número
 		
