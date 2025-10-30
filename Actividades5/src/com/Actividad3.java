@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Actividad3 {
 
+	// Main
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -11,7 +13,6 @@ public class Actividad3 {
 		int n = sc.nextInt();
 		
 		// Array
-		
 		
 		double [] tabla = new double [n];
 			
@@ -35,7 +36,7 @@ public class Actividad3 {
 		double sumaPositivos = 0;
 		double contadorPositivos = 0;
 		for (double num : t) {
-			if (num < 0) {
+			if (num > 0) {
 				sumaPositivos += num;
 				contadorPositivos++;
 			}
@@ -72,11 +73,9 @@ public class Actividad3 {
 	
 	public static int cuentaCeros(double[] t) {
 		
-		double sumaCeros = 0;
-		double contadorCeros = 0;
+		int contadorCeros = 0;
 		for (double num : t) {
-			if (num == 0) {
-				sumaCeros += num;
+			if (num == 0) {				
 				contadorCeros++;
 			}
 		}
