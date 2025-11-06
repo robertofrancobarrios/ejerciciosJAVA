@@ -57,11 +57,11 @@ public class Actividad7 {
 					t3[i3++] = t2[i2++];
 				}
 				
-			// Tabla final ordenada:
-				
-				System.out.println("La tabla final fusionada es: " + Arrays.toString(t3));
 			}
 			
+			// Tabla final ordenada:
+			
+			System.out.println("La tabla final fusionada es: " + Arrays.toString(t3));
 			
 	}
 	
