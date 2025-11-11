@@ -29,7 +29,7 @@ public class Actividad10 {
 				
 				
 			} else {
-				valoresImpares[indicesImpares] = numeros[i];
+				valoresImpares[indiceImpares] = numeros[i];
 				indiceImpares++;
 			}
 		}
