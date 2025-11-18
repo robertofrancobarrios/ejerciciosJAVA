@@ -19,7 +19,7 @@ public class Actividad4 {
 			}
 		}
 		
-		System.out.println("La frase contiene: " + contadorEspacios);
+		System.out.println("La frase contiene: " + contadorEspacios + "espacios");
 
 	}
 
