@@ -1,10 +1,17 @@
 package com;
 
+import java.util.Scanner;
+
 public class Actividad6 {
 
 	public static void main(String[] args) {
-		String cadena = "¿Cómo estás?";
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduce una frase y te saldrá al revés: ");
+		
+		String cadena = sc.nextLine();
 		String cadenaReversa = reversa(cadena);
+		
 		System.out.println("Cadena original: " + cadena);
 		System.out.println("Cadena al revés: " + cadenaReversa);
 	}
