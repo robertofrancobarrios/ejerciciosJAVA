@@ -42,6 +42,8 @@ public class Actividad9 {
 		return null; // No se ha encontrado la muletilla final
 	}
 	
+	// MAIN
+	
 	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
