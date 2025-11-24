@@ -57,7 +57,7 @@ public class Actividad9 {
 		}
 		
 		if (mensaje != null) {
-			System.out.println("El mensaje central es: " + mensaje);
+			System.out.println("Sí, está en el idioma de Javalandia y el mensaje central es: " + mensaje);
 		} else {
 			System.out.println("El mensaje no está en idioma de Javalandia");
 		}
