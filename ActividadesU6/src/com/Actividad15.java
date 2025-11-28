@@ -80,7 +80,7 @@ public class Actividad15 {
 		
 		// Verificamos si el intento es correcto
 		
-		System.out.println("Correcto! Has acertado la palabra, jugador 2");
+		System.out.println("¡Correcto! Has acertado la palabra, Jugador 2");
 		
 		
 	}

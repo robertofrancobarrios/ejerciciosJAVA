@@ -1,5 +1,5 @@
 package com;
-
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Actividad12 {
@@ -24,12 +24,12 @@ public class Actividad12 {
 		
 		// Ordenar los arrays
 		
-		java.util.Arrays.sort(array1);
-		java.util.Arrays.sort(array2);
+		Arrays.sort(array1);
+		Arrays.sort(array2);
 		
 		// Comparar los arrays ordenados
 		
-		return java.util.Arrays.equals(array1, array2);
+		return Arrays.equals(array1, array2);
 		
 	}
 	
