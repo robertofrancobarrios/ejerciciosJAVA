@@ -180,7 +180,7 @@ class ArrayAppTest {
     // boolean esMatrizMagica(int[][] m):
     // - true si todas las filas suman lo mismo y todas las columnas suman lo mismo
     // - asume tamaño 4x4 (si no lo es -> IllegalArgumentException, mensaje exacto)
-/** @Test
+    @Test
     @DisplayName("esMatrizMagica: detecta matriz mágica 4x4")
     void esMatrizMagica_true() {
         int[][] m = {
@@ -284,7 +284,7 @@ class ArrayAppTest {
         assertEquals(esperado, resultado);
     }
 
-    @Test
+/** @Test
     @DisplayName("aciertosPrimitiva: si apuesta tiene repetidos, no cuenta doble")
     void aciertosPrimitiva_sinDobles() {
         int[] apuesta = { 1, 1, 1, 2, 2, 3 };

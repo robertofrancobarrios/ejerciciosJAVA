@@ -210,6 +210,83 @@ public class ArrayApp {
 		
 	}
 	
+	public boolean esMatrizMagica(int[][] m) {
+		
+		if (m == null || m.length != 4) {
+			throw new IllegalArgumentException("matriz debe ser 4x4");
+		}
+		
+		for (int i=0; i<4; i++) {
+			if (m[i] == null || m[i].length != 4) {
+				throw new IllegalArgumentException("matriz debe ser 4x4");
+			}
+		}
+		
+		
+		// suma de referencia
+		
+		int sumaObjetivo = 0;
+		
+		for (int j=0; j < 4; j++) {
+			sumaObjetivo += m[0][j];
+		}
+		
+		// Comprobar filas
+		
+		for (int i=0; i<4; i++) {
+			int sumaFila=0;
+			for (int j=0;j<4;j++) {
+				sumaFila += m[i][j];
+			}
+			if (sumaFila != sumaObjetivo) {
+				return false;
+			}
+		}
+		
+		return true;
+		
+		
+		
+		
+	}
+	
+	public int[][] rellenaSumaIndices() {
+		int [][] m = new int [5][5];
+		
+		for (int f = 0; f < 5; f++) {
+			for (int c=0; c<5; c++) {
+				m[f][c] = f + c;
+			}
+		}
+		
+		return m;
+	}
+	
+	public int maximo(int[] t) {
+		
+		if (t == null) {
+			throw new IllegalArgumentException("array no puede ser null");
+		}
+		
+		if (t.length == 0) {
+			throw new IllegalArgumentException("array vacio");
+		}
+		
+		int max = Integer.MIN_VALUE;
+		for(int numero:t) {
+			if(numero > max) {
+				max = numero;
+			}
+		}
+		return max;
+	}
+	
+	public int aciertosPrimitiva(int[] apuesta, int[] ganadora) {
+		
+	}
+	
+	
+	
 	
 	
 }
