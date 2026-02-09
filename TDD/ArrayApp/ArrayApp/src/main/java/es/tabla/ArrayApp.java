@@ -281,9 +281,7 @@ public class ArrayApp {
 		return max;
 	}
 	
-	public int aciertosPrimitiva(int[] apuesta, int[] ganadora) {
-		
-	}
+	
 	
 	
 	

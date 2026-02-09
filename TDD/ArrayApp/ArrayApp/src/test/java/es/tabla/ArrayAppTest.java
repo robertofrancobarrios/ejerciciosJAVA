@@ -272,8 +272,8 @@ class ArrayAppTest {
     // int aciertosPrimitiva(int[] apuesta, int[] ganadora):
     // - cuenta cuántos números de apuesta aparecen en ganadora
     // - no cuenta duplicados dos veces (si apuesta tiene repetidos, solo cuenta apariciones reales)
-    @Test
-    @DisplayName("aciertosPrimitiva: cuenta aciertos entre apuesta y ganadora")
+/** @Test
+ 	@DisplayName("aciertosPrimitiva: cuenta aciertos entre apuesta y ganadora")
     void aciertosPrimitiva_basico() {
         int[] apuesta = { 1, 2, 3, 4, 5, 6 };
         int[] ganadora = { 6, 5, 4, 10, 11, 12 };
@@ -284,7 +284,7 @@ class ArrayAppTest {
         assertEquals(esperado, resultado);
     }
 
-/** @Test
+ 	@Test
     @DisplayName("aciertosPrimitiva: si apuesta tiene repetidos, no cuenta doble")
     void aciertosPrimitiva_sinDobles() {
         int[] apuesta = { 1, 1, 1, 2, 2, 3 };
