@@ -30,7 +30,7 @@ public class ListaArray {
 	//Para obtener el elemento en una posición
 	public Integer get(int index) {
 		if (index < 0 || index > numElementos) {
-			return null;
+			throw new IllegalArgumentException("Fuera de rango");
 		}
 		
 		return tabla[index];
@@ -41,7 +41,7 @@ public class ListaArray {
 	
 	public Integer remove(int index) {
 		if (index < 0 || index > numElementos) {
-			return null;
+			throw new IllegalArgumentException("Fuera de rango");
 		}
 		
 		Integer eliminado = tabla[index];
@@ -60,6 +60,7 @@ public class ListaArray {
 	// Devuelve el índice de un elemento
 	
 	public int indexOf(Integer n) {
+
         for (int i = 0; i < numElementos; i++) {
             if (tabla[i].equals(n)) {
                 return i;
@@ -97,6 +98,10 @@ public class ListaArray {
 		}
 		
 		tabla = nuevaTabla;
+	}
+
+	public Integer[] getTabla() {
+		return tabla;
 	}
 	
 	
